@@ -1,9 +1,10 @@
 
 networks:
   global:
-    external: true
+    driver: bridge
   local:
-    external: false
+    driver: bridge
+
 
 services:
 
